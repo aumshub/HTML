@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadows and Outlines</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* shadow inside */
+        .box{
+            border: 2px solid red;
+            
+            box-shadow: inset 2px 15px 17px gold; 
+        }
+        /* shadow outside */
+        .box2{
+            border: 2px solid green;
+            box-shadow: 2px 15px 17px blue;
+        }
+        .txt{
+            text-shadow:  2px 15px 17px rgb(255, 0, 195);
+        }
+        .box3{
+            border: 2px solid rgb(0, 217, 255);
+            border-radius: 30px;
+            outline: 4px solid purple;
+            outline-offset: 10px;
+            /* margin: 25px; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">hello this is a box</div>
+    <br>
+    <div class="box2">hello this is another box</div>
+    <br>
+    <div class="txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore, error doloremque ex cupiditate quo, quibusdam eligendi minima similique earum soluta magni labore molestiae explicabo voluptates ipsa autem sunt iusto beatae ab, commodi placeat veritatis doloribus! Qui incidunt officiis nisi aliquam ipsa! Omnis sunt modi commodi quae culpa veniam autem, voluptate ducimus libero quam voluptatibus magni ea, eveniet, qui necessitatibus consequuntur? Esse doloremque pariatur, adipisci architecto reiciendis eligendi consectetur vel minus voluptatem officiis error atque laudantium quae, dolore nesciunt voluptates nisi sapiente obcaecati quasi. Tempora officiis suscipit architecto modi adipisci. Debitis tempora qui distinctio quaerat quo. Aperiam alias eveniet accusantium.</div>
+    <br>
+    <div class="box3">hey this is a box with inside border and outside outline</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSboxmodel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .box {
+            color: rgb(254, 254, 254);
+
+        }
+
+        .box1 {
+            background-color: cornflowerblue;
+            height: 200px;
+            width: 200px;
+            margin: 25px;
+            padding: 10px;
+            border: 2px solid rgb(250, 250, 250);
+        }
+
+        .box2 {
+            background-color: crimson;
+            height: 200px;
+            width: 200px;
+            margin: 25px;
+            padding: 10px;
+            border: 2px solid rgb(250, 250, 250);
+            box-sizing: border-box;
+        }
+        /* here margin collapse happpens where max margin is choosen by the browser */
+    </style>
+</head>
+
+<body>
+    <div class="box box1">hello am a box</div>
+    <div class="box box2">hello I am another box</div>
+
+
+</body>
+
+</html>

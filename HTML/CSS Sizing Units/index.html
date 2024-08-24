@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css sizing units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* using px */
+        .container{
+            box-sizing: border-box;
+            border: solid black;
+            width: 1700px;
+        }
+        /* using % */
+        .parent{
+            border: solid orange;
+            background-color: red;
+            width: 50%;
+            
+
+        }
+        .child{
+            border: solid green ;
+            background-color: yellow;
+            width: 50%;
+        /* using em */
+        }
+        .clas{
+            font-size: 10px;
+        }
+        .classs{
+            border: solid blue;
+            font-size: 10em;
+        }
+        /* using rem */
+        .box{
+            border: solid pink;
+            font-size: 5rem;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">hello how are you</div>
+    <br>
+    <div class="parent">
+        <div class="child">
+            CHILD
+        </div>
+    </div>
+    <br>
+    <div class="clas"> 
+        <div class="classs">using em
+
+        </div>
+    </div>
+    <br>
+    <div class="box">using rem </div>
+    
+</body>
+</html>

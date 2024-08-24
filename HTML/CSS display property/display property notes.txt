@@ -1,0 +1,4 @@
+-  we can convert any block element into an inline element by using display property of css using inline functionn in display property in css.
+-  However if you want to use width then you need to use inline-block element because without using that  you will not be abble to change it's width.
+- DISPLAY NONE =   it is used to remove particular box and its space  where this property is applied in any selector.
+- VISIBILITY- HIDDEN = this is used to hide the particular object from the display and keep it's space/

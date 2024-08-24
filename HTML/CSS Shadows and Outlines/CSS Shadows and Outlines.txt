@@ -1,0 +1,4 @@
+box shadow: this property helps to add shadow in the context. no need to get to know the syntax. See the syntax form any page incase to know. syntax:BOX SHADOW:(2px 12px 13px RGB)
+text shadow: used to add shadow in any text.(ALWAYS CHECK THIS ALL WHEN TO SET ANY SHADOW USE INSPECT AND CHECK HOW IT LOOKS AND USE TOOLS) TO USE text shadow syntax: (.text element {text shadow: 2px 3px 4px RGB} )
+OUTLINE: outline is same as border but does not comes in the box model and it is useful. same syntax as border (width style color). And outline always comes after the border. however, you can't change the width of the outline, and you cant do curve in utline while in border you can do curve using BORDER RADIUS property and if there is any outline outside the border it will also get curve as well.
+OUTLINE OFFSET: with this porperty you can incerease the height of the outline.

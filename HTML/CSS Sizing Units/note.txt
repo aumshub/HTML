@@ -1,0 +1,21 @@
+absolute and relative values from that absolute means fixed sizes.
+
+
+% = in BOTH mostly in width   is used as to get child size according to the parent. for eg: if i set 50% width of the child then it will be take 50% space of its parent's space. 
+
+vh and vw = viewport height and viewport width takes whole displays height and width. for example if i set 100vh then it will take space of entire displays height from top to bottom and same goes for the width.
+
+px =  pixel is 1/95 per inch and it is absolute value.
+
+em = this unit depends on parent it multiply child unit with parent unit and then gives result. for eg: parent given  font size is 10px and child given font  size is 10em then the output size of child will be 100px which is 10em * 10px.
+
+rem = same as em but instead for parent unit size it will multiply with default root element size. eg: 5rem * 16 which will be 80px of font size.
+
+
+
+TO MAKE A RESPONSIVE WEBSITE ALWAYS MAKE SURE TO USE ABSOLUTE UNIT LESS AND ALWAYS TRY TO USE RELATIVE UNNIT. 
+WHAT TO DO TO MAKE RESPONSIVE DESIGN WEBSITE?
+
+
+ 
+

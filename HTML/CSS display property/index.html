@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid red;
+            display: inline;
+            /* for setting width we need to use display inline block */
+            padding: 45px;
+            width: 400px;
+            display: inline-block;
+            margin: 45px;
+        }
+        .box3{
+            border: 2px solid blue ;
+        }
+        .box4{
+            border: 2px solid green;
+            width: 400px;
+            padding: 80px;
+            margin: 70px;
+            /* display: none; */
+
+            visibility: hidden;
+            
+                        
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="box4">hello how are you</div>
+
+    <!-- div is a block element -->
+    <div class="box">this is one div which is converted into inline element 
+        
+    </div>
+    
+    <!-- span is an inline element -->
+    <span class="box3">this is one span</span>
+    <span>this is another span</span>
+
+
+</body>
+</html>

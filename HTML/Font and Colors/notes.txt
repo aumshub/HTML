@@ -1,0 +1,35 @@
++ Fonts:
+
+
+- continue form notes 
+- font weight
+- font size
+- change fonts from google
+- line height
+- letter spacing 
+- Text form for uppercase and lowercase 
+- text decoration for underline and line color
+- text decoration style for underline dotted, wavy
+- text decoration for thickness for underline big 
+- text indent for siding the text
+- text overflow for elicps and for....(not getting for why needed to be cleared)
+- text overflow for hidden
+- word break break all for 
+
+
+
+
++ Colours:
+
+
+- color red for normal color changing.
+- color can be replaced in 
+	1. color keywords (Eg: red, blue...etc)
+	2. hex color code (#GGGTE)
+	3. RGB (RED: 22(value), GREEN: 04, BLUE: 66)
+	4. RGBA (RED: 22(value), GREEN: 04, BLUE: 66, ALPHA (value for opacity of the Particular color)
+	5. HSL hsl(value,value,value) (used for the saturation light)
+	6. HSLA same as RGBA
+	 
+
+
