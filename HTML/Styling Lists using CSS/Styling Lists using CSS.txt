@@ -1,0 +1,7 @@
+list style: you can change the style by using this property. 
+list style type:by using this property you can set emogi instead of the letters. 
+list style inside/ image: in background image you can alsoa add any image or anything else.  by adding any url. 
+
+list style position inside: so there is one thing that without using this property your list styles are seperate from the letters and by using this property you can this will be merge. for eg do comment uncomment this property form the code and check what happens with the bg color of the site. 
+
+ELEMENT.STYLE: whatever you write in this in the css it will automatically add as an inline style.  ??????????
