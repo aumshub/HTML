@@ -1,0 +1,12 @@
+OVERFLOW PROPERTIES:
+
+
+In overflow property is used when the text is getting overflow. 
+ 
+white space nowrap; = by using this property you can alling all the the text of the peragraph to the horizontal direction. Hence, only horizontal scroll bar will be visible.
+
+text-overflow: ellipsis; = this will compress your text and will let text go outside of the box if you use "overflow: ellipsis" whereas with the mentioned property you can "....." in the end of the box.
+
+overflow: = this property is used to add scrollbar into the overflowing text.
+
+overflow-x and overflow-y = you can use hidden and another in scroll mode. instead of using this you can use "overflow: hidden(x) scroll(Y);"
