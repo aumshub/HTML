@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position property</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .parent{
+        width: 60vw;
+        height: 95vh;
+        border: 3px solid red;
+        margin: 10px;
+        /* position: absolute; */
+      
+        
+      
+    }
+    .box{
+      height: 20vh;
+      width: 39vw;
+      border: 2px solid black;  
+      margin: 25px;
+      
+    
+
+    }
+    .box1{
+        background-color: yellow;
+        /* position: relative; */
+        position: sticky;
+        z-index: 1;
+    
+    
+    }
+    .box2{
+        background-color: rgb(89, 20, 73);
+        position: relative;
+    bottom: 50px;
+    left: 40px;
+    z-index: 2; 
+
+    }
+    .box3{
+        background-color: rgb(24, 194, 72);
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: 50vw;
+        /* if you uncomment the position from the paernt box you this box will set its relative as its parent. */
+    }
+    .box4{
+        background-color: rgb(4, 38, 255);
+        position: fixed;
+
+    }
+    .good{
+        border: 2px solid rgb(107, 55, 55);
+        height: 40vh;
+    }
+   
+
+</style>
+<body>
+    <div class="good">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime odit ipsa placeat ullam excepturi cumque id impedit praesentium animi cum sapiente dolor quia libero doloremque reiciendis obcaecati nesciunt soluta amet, autem saepe, quam hic nulla. Repellendus consequatur expedita perferendis est, sapiente ut beatae, sequi minima adipisci tempora tenetur ratione! Architecto ab molestiae ipsum ex provident illum corporis quasi debitis? Id quam officia et iste adipisci? Voluptate repellat, repudiandae eveniet quam ex quibusdam accusamus in officia minima iusto, nesciunt magnam nulla, vitae recusandae earum. Porro ipsa pariatur quos esse? Incidunt eaque iusto ullam dolor natus nemo est itaque recusandae aliquid pariatur.</div>
+    <div class="parent">
+
+                            
+                        <div class="box box1"></div>
+                        <div class="box box2"></div>
+                        <div class="box box3"></div>
+                        <div class="box box4"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+ psoition static: 
+position relative: it means younow your container is not static it is movable now.
+z-index: this thing means that you can let ovr lap the upper box on the main box. to set z index position is mandatory.kisi ki bhi z-index ki value jyada hogi it will be upper form everyone and the one who hs lesser z-index it will be very down then everyone.
+position absolute: ye nearest position ansister ke relative lage ga.
+for eg: papa(parent)if position is not given on that it will go to > body(dada) it will ask taht dada are you alloted the posotion if yes then it will set relative accordingly and if not then it will ask to > doctype html(per dada ) and get set accordingly.
+position fixed: it will stay fixed even if i scroll.( scruew thi fit kari didhu)
+position sticky: always stays on top when scroll down and it got stick when you scroll and when you dont scroll it stays static. 
+transfrom, perspective and filter when we use the box will take relative as the parent not html because it acts like a position element.
