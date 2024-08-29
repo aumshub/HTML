@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variables</title>
+</head>
+<style>
+    /* global variable */
+    :root{
+        --color: rgb(200, 0, 207);
+        --seccolor: rgb(204, 124, 234);
+        /* --defpad: 45px   */
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        
+        background-color: var(--color); 
+        padding: 50px;
+    }
+    li{
+        display: inline; 
+        padding: 20px;
+        /* local variable */
+        --color: rgb(43, 0, 255);
+        border: 20px solid var(--color); 
+
+    }
+    .pera{
+        background-color: var(--seccolor) ;
+    }
+ 
+</style>
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+      
+    </div>
+    <div class="pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam similique enim consectetur, amet illo porro doloribus assumenda, veniam molestiae unde odit? Cum corrupti doloremque suscipit ab placeat possimus deserunt, odit consequuntur earum facere numquam mollitia, dolor quas ipsa cupiditate culpa eveniet iure! Quas, atque.</div>
+   
+</body>
+</html>

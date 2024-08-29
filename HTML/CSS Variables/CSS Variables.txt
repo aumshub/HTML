@@ -1,0 +1,15 @@
+ :root{ } : in this you can write global variable which can be used in for eg setting color. This practice has been shown is the souce code must chehck it. this root shold be written on the top or starting point of the css.
+
+ however, there in the same way we can use local variable to set individual variable for the particular property to overwrite the new color instead of the global variable color. if any variable is not found then for the backup you can use ", colorname" so that particular color can be used in that peroperty.
+
+ syntax to make variable = --color : rgb(color); for the root or to make any variable. 
+ syntax to use this variable bg = bgcolor: var(--color);
+
+
+ - css variables just not hold the color but also holds the  padding as well. 
+ eg: --defpad: 25px
+    padding: var(--def);
+
+
+
+    CSS VARIABLES HOLDS VALUE OF ANY PROPERTY, BACKGROUND URLS, STRING, COLORS AND MANY MUCH.
