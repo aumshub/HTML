@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxsizing borderbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            border: 10px solid red;
+            padding: 20px;
+            margin: 20px;
+
+        }
+        .box2{
+            box-sizing: border-box;
+            width: 200px;
+            height: 200px;
+            border: 10px solid red;
+            padding: 20px;
+            margin: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box1">
+        box 1
+    </div>
+    <div class="box2">
+        box2
+    </div>
+</body>
+</html>
