@@ -1,0 +1,5 @@
+media queries are used to make the website more resposive.
+
+
+syntx:   @media not|only mediatype and (expression like orientation landscape){ css code}
+
