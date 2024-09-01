@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position practice</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        html{
+            background-color: rgb(0, 0, 0);
+        }
+        .container{
+            margin: 15vh auto ;
+            height: 300px;
+            width: 300px;
+            background-color: gray;
+        }
+        /* blue box position relative so it will  adjust according to the relative of parent which is cotainer in this case  */
+        .blue{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+        /* purple box position is absolute so it will adjust according to the relative of the html which is the root  */
+        .purple{
+            height: 100px;
+            width: 100px;
+            background-color: purple;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .red{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            position: relative ;
+            right: 100px;
+            bottom: 0px;
+        }
+        /* pink box has position fixed so it cannot be moved even if you scroll always use this while dezining the nav bar  */
+        .pink{
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            position: fixed;
+            top: 10px;
+            left: 0;
+        }
+        /* spacer is just to add extra space for scrolling  */
+        .spacer{
+            height: 300vh;
+        }
+        /* DOUBT THIS IS NOT WORKING */
+        .green{
+            height: 100px;
+            width: 100px;
+            background-color: green; 
+            position: sticky;
+            top: 50px;
+            left: 100px;
+        }
+     
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="blue"></div>
+            <div class="purple"></div>
+            <div class="red"></div>
+            <div class="pink"></div>
+            <div class="green"></div>
+            <div class="spacer"></div>
+        </div>
+</body>
+</html>
