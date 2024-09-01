@@ -1,0 +1,6 @@
+This property is used as I had shown in the practice.
+
+dont use this to make modern layouts it is not recommended by harrybhai.
+
+
+so firstof all in the given example of the created webpage you see when i set the image css to the float right then it got overflowed on the classes this all happned cuz after applying this float the image can let the content used the space besides the content. however to avoid the overflowing issue of the image we used "display flow root" property in the classes tag to let image in the container and prevent the overflow.
