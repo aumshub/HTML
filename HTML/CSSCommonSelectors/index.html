@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main selector</title>
+    <style>
+        /* you can even write the text using css VERY IMPORTANT */
+        .BOXES::before{
+            content: "THIS IS TEXT USING CSS BEFORE";
+            background-color: red ;
+        }
+        .BOXES::after {
+            content: "THIS IS TEXT USING CSS AFTER";
+            background-color: blue;
+        }
+        /* for text heighlighting purpose */
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="BOXES">
+    <div class="box">Text using html 1</div>
+    <div class="box">Text using html 2</div>
+    <div class="box">Texy using html 3</div>
+</div>
+</body>
+</html>
