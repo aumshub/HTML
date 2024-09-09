@@ -1,0 +1,34 @@
+FLEX BOX PROPERTIES : (only for container not for the individual items)
+
+jsutify content center: meaning all the items in the container will get center. this property does horizontally content center. here insted of using justify contenet center if we use flex end or start instead of the center then we can poisiton the items right or left end of the container. Moreover if you do space around or space between it will give the space between the iems of the container, the difference between space around and space between will be in the around you will be getting the space thoroughly from every side whereas, in space between you will only get space between the items not on the starting and ending side. space evenly means barabar baraber se space kar do. 
+
+align items center: this property helps to allign all the items of the containter in the center vertically. same if we use flex end and all you will get to know.
+aligh content center: if we have more than one line we use his to make two line center. ther is no justiy items in flex box.
+
+FLEX DIRECTION: it means where the items are laying. 
+                if we add direction colum it will arrange all the items form up to down vertically. if we do column reverse then it will allign undhu. 
+
+FLEX WRAP: this helps to wrap the content down. wrap reverse ulta wrap karte hai. by default its no wrap.
+
+FLEX FLOW: used to set flex direction which is flow and flex wrap. used to use 2 property at once.
+ 
+ GAP:  used to define items gap and we can use row gap and column gap. 
+
+
+
+
+ ITEMS PROPERTY: 
+
+
+ order:  by default order value is 0. the ordrer value is less the it will be at first whereas, the larger the order value it will be at last. kam hoga vo pehle jyada hoja vo end mai.    
+
+flex grow: by default felx grow is 0. if flex grow is increased it will grow one by one of same as other item.
+
+flex shrink: where the flex shrink is applied  on a particular item 
+that will shrink when willl small the display.
+
+align self:  we can align the particular items on the flex start or flex end like that to align that particular item.
+
+
+
+
