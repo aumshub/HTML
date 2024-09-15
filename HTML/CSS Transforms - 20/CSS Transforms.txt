@@ -1,0 +1,11 @@
+The transform property applies a 2d or 3d transformation to an element. this property allows you to rotate, scale, move, skew, etc to the elements.
+
+transform scale: make size smaller and larger.  
+
+use transorn translate preperty for making any content in the center and write value in the %.
+
+use transfrom rotate propery for rotating the content. 
+
+
+use skew to see what happens  you can use all the property in one sentence as well. n 
+ 

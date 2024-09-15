@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms</title>
+    <style>
+        
+         
+              .container{
+                background-color: lightskyblue;
+                height: 50vh;
+                width: 60vw;
+                display: flex;
+                margin: 200px auto;
+
+                
+               
+              }
+              .box{
+                background-color: red;
+                height: 150px;
+                width: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                /* the rotate property is use to retate any content in the deg provided and use -45deg for rotating anti clockwise */
+                transform: rotate(45deg);
+
+
+                /* the scaling property is used in increasing and decereasing the size of the content default size if 1 if you do 2 then it will size in 2x of the original size */
+                /* transform: scale(2); */
+                /* transform: scale(0.5); */
+
+
+                /* to tilt the content we use skew property use -45 to tilt in the oposite direction */
+                /* transform: skew(45deg); */
+
+
+                /* the translate property is used to adjust the content into left right center and all in the container */
+                /* transform: translate(0%, 50%); */
+                
+
+             /* this property is used that kya thi rotate karvu the rotation of the content like that */
+             transform-origin:top right;
+
+
+
+
+                
+
+
+                
+               
+              }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">hello</div>
+
+    </div>
+</body>
+</html>

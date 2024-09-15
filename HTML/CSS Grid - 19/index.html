@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+    <style>
+        .container {
+            display: grid;
+            /* grid-template-columns: 200px 100px 200px; */
+            /* grid-template-columns: 1fr 2fr 1fr; */
+            grid-template-columns: repeat(4, 1fr);
+            /* grid-template-rows: 120px 120px ; */
+            /* row gap and column gap in one left one is for row and right one is for the column */
+            gap: 20px 50px;
+            grid-auto-rows: minmax(200px, auto);
+
+        }
+
+        .items {
+            background-color: lightgreen;
+            border: 2px solid red;
+            border-radius: 3px;
+
+
+        }
+
+        #item-5 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+
+        }
+
+        #item-1 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        .neasted {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 100px;
+
+
+        }
+
+        .neasteditems {
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="items" id="item-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, nam sit
+            quia saepe libero explicabo perferendis possimus voluptatibus odit nostrum consectetur magni natus officiis
+            rerum, nesciunt voluptatum mollitia! Nesciunt ex dolorem laudantium voluptas rerum velit sapiente excepturi
+            non fugiat corporis corrupti necessitatibus maiores voluptatum quod fugit, itaque cumque saepe sed sit
+            dolores molestiae eligendi laborum debitis? Quibusdam, nobis id? Eligendi quia veritatis itaque nemo natus
+            debitis quidem accusantium vel non officiis quasi quaerat doloremque nobis pariatur facilis perspiciatis
+            voluptatibus magnam amet iste, aliquam animi fugiat illo? Ab est omnis blanditiis, nobis incidunt placeat id
+            error odio possimus soluta odit voluptatum similique hic eligendi eaque unde. Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Atque earum fuga consectetur blanditiis, voluptatum voluptas, laboriosam ad,
+            asperiores tempore doloremque architecto? Praesentium itaque similique voluptates odio voluptate fugiat,
+            quos tempora culpa repellat? Quas.!</div>
+        <div class="items">dabba 2</div>
+        <div class="items">dabba 3</div>
+        <div class="items">dabba 4</div>
+        <div class="items neasted " id="item-5">
+            <div class="neasteditems">dabbe mai dabba 1</div>
+            <div class="neasteditems">dabbe mai dabba 2</div>
+            <div class="neasteditems">dabbe mai dabba 3</div>
+        </div>
+    </div>
+</body>
+
+</html>

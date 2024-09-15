@@ -1,0 +1,12 @@
+grid template column and row both devides the colomun the given row and column dimentions. use repeat function in that.
+
+
+grid auto rows and columns helps to fix the continers size. then it wont take as space as text does. you can even set minimum height and maximum height you can set minumum 100px and max auto so it will rin according the text. for responsive you can use "repeate(autofil, minmax(200px, 1fr))"
+
+to shift any dabba from one poistion to another you  can use grid column start and end number and same for grid column row. the number  of lines you can see form the developer tool. you can even make larger the container by using the same concept.
+this is used in one single property only not in the container.
+
+
+grid gap function is used to provide gap between grids. you can use column gap and row gap as well.
+
+you can even use dabbe me dabba thing in the one particular dabba.
