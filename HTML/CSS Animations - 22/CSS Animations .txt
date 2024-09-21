@@ -1,0 +1,17 @@
+Transitions and Animations are mmostly same the onlydiference between both of them is with the help of  animation you can change the properties more than one same you can do with transitins but in animation you can actully define the that konsi property kaha se kaha tak ja ye gi kitne time mai jaaegi kon kon se keyframe ho ge and what is keyframe?
+
+
+
+to make animations in the css we use directly @keyframes nameofkeyFreamelikevariable {
+    from{
+
+    }
+    to{
+
+    }
+
+}
+
+
+
+animation delay means keitni der ke baad aapkka animartion chalna chaye.

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations </title>
+    <style>
+   
+        .container{
+            height: 50vh;
+            width: 50vw;
+            background-color: lightcoral;
+        }
+        .box{
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+           align-items: center;
+            border-radius: 25%;
+            color: aliceblue;
+            /* animation-name: aumKaAnimation;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out; */
+            /* DOUBT IN AIMATION DELYA IK VAAR AJ 10 SECS PACI CHALE CHE FIRST TIME THEN AT THE TIME OF LOOP ITS NOT WAITING FOR 10SEC IT JUST STARTS IN INFINITE ITERATION ANIMATION COUNT */
+            /* animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: backwards; */
+
+            animation: aumKaAnimation 3s ease-in-out 1s infinite alternate, 
+                        aumKaAnimation2  3s ease-in-out 1s infinite alternate; 
+  
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+        @keyframes aumKaAnimation {
+            from{
+
+                background-color: lightseagreen;
+            }
+            to{
+                /* DOUBT WHY THIS NOT APPLIES AT FIRST AND THEN ROTATE */
+                /* transform: translate(60vw); */
+                background-color: black;
+            }   
+        }
+        @keyframes aumKaAnimation2{
+            0%{ transform: rotate(0deg);}
+            25%{transform: rotate(25deg);}
+            50%{transform: rotate(100deg);}
+            75%{transform: rotate(250deg);}
+            100%{transform: rotate(360deg);}
+          
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">yoooo!</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+there are 4 main properties of the transition:
+
+transition-property: transform; (this proeprty let you indicate where you want to apply this property. )
+
+
+transition-duration: 3s; ( this property says that during the time of transition from start to end how uch time duration you need/ or to complete it whole transition in how much time you want this transition to complete.)
+
+
+transition-timing-function: ease-in-out; (this property is indecating the type of transition effect like slow fast and all, you can even customize this effects from the developer tool.)
+
+
+
+transition-delay: 1s; (this property says at the time of transition start how much time you want inorder to start this transition for eg: here is 1s mentioned so the transition will start after counting 1s.)
+
+
+- you can use transition all property to apply the transition all in one single line.
