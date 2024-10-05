@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object Fit and Position</title>
+    <style>
+        .container{
+            height: 60vh;
+            width: 30vw;
+            border: 2px solid black;
+        }
+        .container2{
+            height: 60vh;
+            width: 30vw;
+            border: 2px solid black;
+            margin: -247px auto;
+            background-image: url(https://us.123rf.com/450wm/sosiukin/sosiukin2406/sosiukin240600663/230767867-doubt-word-written-on-wood-block-doubt-text-on-table-concept.jpg?ver=6); /*here after adding this image its short in y axis so this image is repeating down to avoid this we will use  the following property. */
+            background-repeat: no-repeat; /* we can also make it repeate in x axis or even in y axis*/
+            background-position: center center;  /*This will do center center form right and left same as object position property it works*/
+            /* background-clip: ; This proerty is good to know */
+            background-size: max(12px, 100vw);    
+
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;       /* cover covers the image with maintaining the aespect ratio of the image in the provide size of image in which here is 200px by 200px.*/
+            object-position: top right; /*  youc an also use center position to view the center portion of the image. also you can to 50% 50% for top and bottom and for right and left*/
+            /* object-fit: contain;   /* This property will contian whole image in the provide size maintianing full aespect ratio of the image. */
+            /* object-fit: fill;     filll compresses the image by disturbing the images aespaect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://t3.ftcdn.net/jpg/06/15/49/68/360_F_615496890_W34yB8VDE6n5pehb5QCt1ek5oEvRo9qA.jpg" alt="flowerimg">
+
+    </div>
+    <div class="container2">
+      
+
+    </div>
+</body>
+</html>
